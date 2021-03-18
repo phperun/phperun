@@ -1,0 +1,23 @@
+{
+    "name": "phperun/phperun",
+    "description": "Simple PHP framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bogdan Petkovic",
+            "email": "bogdanpetkovic@yandex.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PHPerun\\PHPerun\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PHPerun\\Dev\\": "dev/"
+        }
+    }
+}
